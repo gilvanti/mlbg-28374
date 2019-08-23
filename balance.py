@@ -91,7 +91,7 @@ def main():
         contador += 1
         print(work)
         if work[0] == 0 :
-            print(custo)
+            print(str(custo)+' - Custo necessário para executar todos os processos')
         else:
             custo = custo + len(work)
 
